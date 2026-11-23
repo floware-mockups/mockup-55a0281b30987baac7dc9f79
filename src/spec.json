@@ -75,13 +75,14 @@
       "description": "Cerca e filtra le pratiche per stato. Ogni impianto ha le sue prescrizioni e scadenze.",
       "metrics": [],
       "columns": [
-        "Pratica",
+        "Protocollo",
         "Tipo",
         "Sito",
         "Impianto",
         "Tecnico",
         "Scadenza",
-        "Stato"
+        "Stato",
+        "Data di arrivo"
       ],
       "rows": [
         [
@@ -91,7 +92,8 @@
           "Forno di essiccazione",
           "Lumo",
           "12/06/2026",
-          "In arrivo"
+          "In arrivo",
+          "05/02/2026"
         ],
         [
           "AR-211",
@@ -100,7 +102,8 @@
           "Cabina di verniciatura",
           "Vela",
           "18/06/2026",
-          "Da preparare"
+          "Da preparare",
+          "12/02/2026"
         ],
         [
           "AR-218",
@@ -109,7 +112,8 @@
           "Caldaia a biomassa",
           "Nubi",
           "24/06/2026",
-          "In programma"
+          "In programma",
+          "19/02/2026"
         ],
         [
           "AR-223",
@@ -118,7 +122,8 @@
           "Impianto di fusione",
           "Lumo",
           "29/06/2026",
-          "Da assegnare"
+          "Da assegnare",
+          "26/02/2026"
         ],
         [
           "AR-229",
@@ -127,7 +132,8 @@
           "Essiccatore industriale",
           "Vela",
           "05/07/2026",
-          "In programma"
+          "In programma",
+          "04/03/2026"
         ],
         [
           "AR-235",
@@ -136,17 +142,19 @@
           "Forno di cottura",
           "Nubi",
           "11/07/2026",
-          "Da preparare"
+          "Da preparare",
+          "11/03/2026"
         ]
       ],
       "form": [
-        "Pratica",
+        "Protocollo",
         "Tipo",
         "Sito",
         "Impianto",
         "Tecnico",
         "Scadenza",
-        "Stato"
+        "Stato",
+        "Data di arrivo"
       ]
     },
     {
@@ -273,11 +281,12 @@
           "In programma"
         ]
       ],
-      "form": []
+      "form": [],
+      "chartColumn": 5
     }
   ],
   "theme": {
-    "palette": "verde-oliva",
-    "fonts": "moderno"
+    "palette": "blu-istituzionale",
+    "fonts": "editoriale"
   }
 }
