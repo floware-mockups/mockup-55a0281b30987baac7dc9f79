@@ -1,0 +1,283 @@
+{
+  "title": "Registro emissioni e autorizzazioni",
+  "description": "Controlla impianti, prescrizioni e scadenze delle analisi e delle autorizzazioni. Dati di esempio inventati.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "riepilogo",
+      "title": "Riepilogo",
+      "description": "Pratiche aperte, controlli in arrivo e autorizzazioni da seguire.",
+      "metrics": [
+        {
+          "label": "Pratiche aperte",
+          "value": "8"
+        },
+        {
+          "label": "Controlli del mese",
+          "value": "4"
+        },
+        {
+          "label": "Autorizzazioni in scadenza",
+          "value": "3"
+        },
+        {
+          "label": "Segnalazioni da chiudere",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Pratica",
+        "Impianto",
+        "Sito",
+        "Controllo da fare",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "AR-204",
+          "Forno di essiccazione",
+          "Piana delle Nebbie",
+          "Analisi emissioni",
+          "12/06/2026",
+          "In arrivo"
+        ],
+        [
+          "AR-211",
+          "Cabina di verniciatura",
+          "Bosco Lumo",
+          "Rinnovo autorizzazione",
+          "18/06/2026",
+          "Da preparare"
+        ],
+        [
+          "AR-218",
+          "Caldaia a biomassa",
+          "Valle Vela",
+          "Verifica filtro",
+          "24/06/2026",
+          "In programma"
+        ],
+        [
+          "AR-223",
+          "Impianto di fusione",
+          "Piana delle Nebbie",
+          "Analisi emissioni",
+          "29/06/2026",
+          "Da assegnare"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "registro-pratiche",
+      "title": "Registro pratiche",
+      "description": "Cerca e filtra le pratiche per stato. Ogni impianto ha le sue prescrizioni e scadenze.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Tipo",
+        "Sito",
+        "Impianto",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "AR-204",
+          "Autorizzazione",
+          "Piana delle Nebbie",
+          "Forno di essiccazione",
+          "Lumo",
+          "12/06/2026",
+          "In arrivo"
+        ],
+        [
+          "AR-211",
+          "Rinnovo",
+          "Bosco Lumo",
+          "Cabina di verniciatura",
+          "Vela",
+          "18/06/2026",
+          "Da preparare"
+        ],
+        [
+          "AR-218",
+          "Controllo",
+          "Valle Vela",
+          "Caldaia a biomassa",
+          "Nubi",
+          "24/06/2026",
+          "In programma"
+        ],
+        [
+          "AR-223",
+          "Autorizzazione",
+          "Piana delle Nebbie",
+          "Impianto di fusione",
+          "Lumo",
+          "29/06/2026",
+          "Da assegnare"
+        ],
+        [
+          "AR-229",
+          "Controllo",
+          "Colle delle Brume",
+          "Essiccatore industriale",
+          "Vela",
+          "05/07/2026",
+          "In programma"
+        ],
+        [
+          "AR-235",
+          "Rinnovo",
+          "Bosco Lumo",
+          "Forno di cottura",
+          "Nubi",
+          "11/07/2026",
+          "Da preparare"
+        ]
+      ],
+      "form": [
+        "Pratica",
+        "Tipo",
+        "Sito",
+        "Impianto",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ]
+    },
+    {
+      "id": "prescrizioni",
+      "title": "Prescrizioni",
+      "description": "Consulta le regole da rispettare per ciascun impianto e il controllo previsto.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Impianto",
+        "Sito",
+        "Prescrizione",
+        "Frequenza controllo",
+        "Prossima analisi",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "AR-204",
+          "Forno di essiccazione",
+          "Piana delle Nebbie",
+          "Misurare le emissioni del camino",
+          "Ogni 6 mesi",
+          "12/06/2026",
+          "Da verificare"
+        ],
+        [
+          "AR-211",
+          "Cabina di verniciatura",
+          "Bosco Lumo",
+          "Controllare filtri e registrare la sostituzione",
+          "Ogni 3 mesi",
+          "18/06/2026",
+          "Da verificare"
+        ],
+        [
+          "AR-218",
+          "Caldaia a biomassa",
+          "Valle Vela",
+          "Misurare polveri e tenere il registro",
+          "Ogni 12 mesi",
+          "24/06/2026",
+          "In programma"
+        ],
+        [
+          "AR-223",
+          "Impianto di fusione",
+          "Piana delle Nebbie",
+          "Misurare le emissioni durante la produzione",
+          "Ogni 6 mesi",
+          "29/06/2026",
+          "Da assegnare"
+        ],
+        [
+          "AR-229",
+          "Essiccatore industriale",
+          "Colle delle Brume",
+          "Verificare il funzionamento dell'aspirazione",
+          "Ogni 3 mesi",
+          "05/07/2026",
+          "In programma"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "scadenze",
+      "title": "Scadenze",
+      "description": "Tieni sotto controllo analisi, autorizzazioni e verifiche in arrivo.",
+      "metrics": [],
+      "columns": [
+        "Pratica",
+        "Tipo scadenza",
+        "Impianto",
+        "Sito",
+        "Tecnico",
+        "Scadenza",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "AR-204",
+          "Analisi emissioni",
+          "Forno di essiccazione",
+          "Piana delle Nebbie",
+          "Lumo",
+          "12/06/2026",
+          "In arrivo"
+        ],
+        [
+          "AR-211",
+          "Autorizzazione",
+          "Cabina di verniciatura",
+          "Bosco Lumo",
+          "Vela",
+          "18/06/2026",
+          "Da preparare"
+        ],
+        [
+          "AR-218",
+          "Analisi emissioni",
+          "Caldaia a biomassa",
+          "Valle Vela",
+          "Nubi",
+          "24/06/2026",
+          "In programma"
+        ],
+        [
+          "AR-223",
+          "Autorizzazione",
+          "Impianto di fusione",
+          "Piana delle Nebbie",
+          "Lumo",
+          "29/06/2026",
+          "Da assegnare"
+        ],
+        [
+          "AR-229",
+          "Analisi emissioni",
+          "Essiccatore industriale",
+          "Colle delle Brume",
+          "Vela",
+          "05/07/2026",
+          "In programma"
+        ]
+      ],
+      "form": []
+    }
+  ],
+  "theme": {
+    "palette": "verde-oliva",
+    "fonts": "moderno"
+  }
+}
